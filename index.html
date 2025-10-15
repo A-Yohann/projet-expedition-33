@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <head>
-        <nav>
+    <header>
+        <nav class="navbar">
             <ul>
                 <li><a href="">ACCUEIL</a></li>
                 <li><a href="">ACTUALITES</a></li>
@@ -15,24 +16,28 @@
                 <li><a href="">PRECOMMANDER</a></li>
             </ul>
         </nav>
-    </head>
+    </header>
     <main>
         <section>
-            <div class="banner"></div>
+            <div class="banner">
+                 <img class="logo" src="assets/img/logo.png" alt="logo expedition 33">
+            </div>
         </section>
 
         <section>
-            <h1>Brisez le cycle</h1>
-            <h2><blockquote>YEAR BY YEAR, SHE ERASES US.</blockquote></h2>
-            <p>entre dans un univers ou l'encre, la lumiere et l'ombre sculptent la destinée
+            <div class="content">
+                <h1>Brisez le cycle</h1>
+                <p><q>YEAR BY YEAR, SHE ERASES US.</q></p>
+                <p>entre dans un univers ou l'encre, la lumiere et l'ombre sculptent la destinée
                 Clair Obscur:Expedition 33 vous invite a mener une nouvelle expedition a travers des paysages oniriques.
                 marqués par un cycle mysterieux et implacable.Rassemblez votre equipe maitrisez des techniques tactiques et revelez les secrets enfouis derriere chaque coup de pinceau.</p>
-            <a href="">En savoir plus</a>
+                <a href="" class="btn btn-primary">En savoir plus</a>
+            </div>    
         </section>
 
-        <section>
+        <section id="actu">
             <h2>Actualités</h2>
-             <div class="cards-container">
+            <div class="cards-container">
                 <div class="card card-maj">
                     <div class="card-img">
                         <img src="assets/img/actualite-1.jpg" alt="">
@@ -83,11 +88,11 @@
     <footer>
         <nav>
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="">Mentions legales|</a></li>
+                <li><a href="">politiques de confidentialités|</a></li>
+                <li><a href="">préférence cookies|</a></li>
+                <li><a href="">public ciblé|</a></li>
+                <li><a href="">recrutement</a></li>
             </ul>
         </nav>
     </footer>

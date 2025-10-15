@@ -5,4 +5,114 @@
 
 body{
     font-family: "Cinzel Regular",sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+
+header{
+    background-color: black;
+}
+
+h1,h2,p,a{
+    color: white;
+}
+
+.banner{
+    background-image:  url(../img/banner.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    background-position: center;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.navbar ul li{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn {
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;     
+}
+
+.btn-primary{
+    border:1px solid gold;
+    background-color: gold;
+}
+
+.card{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 80%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 350px;
+}
+
+.cards-container{
+      display: flex;
+    justify-content: center;
+    flex-direction: row;
+} 
+
+
+
+#actu{
+    text-align: center;
+    display: flex;
+    
+    
 }
