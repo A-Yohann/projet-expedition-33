@@ -27,7 +27,7 @@
         <section>
             <div class="content">
                 <h1>Brisez le cycle</h1>
-                <p><q>YEAR BY YEAR, SHE ERASES US.</q></p>
+                <p>YEAR BY YEAR, SHE ERASES US.</p>
                 <p>entre dans un univers ou l'encre, la lumiere et l'ombre sculptent la destinée
                 Clair Obscur:Expedition 33 vous invite a mener une nouvelle expedition a travers des paysages oniriques.
                 marqués par un cycle mysterieux et implacable.Rassemblez votre equipe maitrisez des techniques tactiques et revelez les secrets enfouis derriere chaque coup de pinceau.</p>
@@ -37,7 +37,9 @@
 
         <section id="actu">
             <h2>Actualités</h2>
-            <div class="cards-container">
+
+            <div class="flex-cards"> 
+                <a href="" class="cards-container">
                 <div class="card card-maj">
                     <div class="card-img">
                         <img src="assets/img/actualite-1.jpg" alt="">
@@ -47,9 +49,9 @@
                         <p>To show our appreciation we've been working on bringing you a fexw updates</p>
                     </div>
                 </div>
-            </div>
+                </a>
 
-             <div class="cards-container">
+                <a href="" class="cards-container">
                 <div class="card card-patch">
                     <div class="card-img">
                         <img src="assets/img/actualite-2.jpg" alt="">
@@ -59,9 +61,9 @@
                         <p>We’re SUPER excited to bring you the Battle Retry option in this update, which has been one of our most requested QoL additions! We’re also thrilled to have added Frame Generation and Low  Latency on compatible NVIDIA and Intel GPUs.</p>
                     </div>
                 </div>
-            </div>
+                </a>
 
-             <div class="cards-container">
+                <a href="" class="cards-container">
                 <div class="card card-preco">
                     <div class="card-img">
                         <img src="assets/img/actualite-3.jpg" alt="">
@@ -71,27 +73,33 @@
                         <p>We are finally able to open pre-orders for our Vinyls and CD Sets</p>
                     </div>
                 </div>
-            </div>
+                </a>
+            </div>    
         </section>
 
-        <section>
-            <h2>Abonnez vous a notre newsletter</h2>
-            <form action="">
-                <label for="email"></label>
-                <input type="email" placeholder="Votre e-mail">
+        <section class="news">
+            <div class="news-content">
+                <h2>Abonnez vous a notre newsletter</h2>
+                <form action="">
+                    <label for="email"></label>
+                    <input class="envoie" type="email" id="votre" placeholder="Votre e-mail">
 
-                <input type="submit" value="S'abonner">
+                    <input class="btn btn-primary" type="submit" value="S'abonner">
 
-            </form>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-        <nav>
+        <div class="logo-site">
+            <img src="assets/img/logo.png" alt="logo du site">
+        </div>
+        <nav class="navbar-footer">
             <ul>
-                <li><a href="">Mentions legales|</a></li>
-                <li><a href="">politiques de confidentialités|</a></li>
-                <li><a href="">préférence cookies|</a></li>
-                <li><a href="">public ciblé|</a></li>
+                <li><a href="" class="trait">Mentions legales</a></li>
+                <li><a href="" class="trait">politiques de confidentialités</a></li>
+                <li><a href="" class="trait">préférence cookies</a></li>
+                <li><a href="" class="trait">public ciblé</a></li>
                 <li><a href="">recrutement</a></li>
             </ul>
         </nav>
